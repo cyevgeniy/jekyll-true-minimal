@@ -5,7 +5,7 @@ layout: default
 {% for post in paginator.posts %}
 <section>
   <h2>
-    <a href='{{ fullUrl }}{{ post.url }}' title='{{ post.title }}'>
+    <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
       {{ post.title }}
     </a>
   </h2>
