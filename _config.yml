@@ -11,7 +11,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-paginate: 10
+paginate: 2
 paginate_path: /page-:num
 
 #disqus-id: your-disqus-id
