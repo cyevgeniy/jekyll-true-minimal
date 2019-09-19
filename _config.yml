@@ -1,8 +1,10 @@
+
 name: "Second blog"
 description: "Colaborative work of Andres P. and Victor C."
 
-url: '' 
-baseurl: ''
+
+url: 'https://andrespitta.github.io/second_blog' 
+baseurl: '/second_blog'
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"

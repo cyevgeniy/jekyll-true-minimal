@@ -1,20 +1,18 @@
 ---
 layout: post
-title:  "True minimal theme"
-date:   2018-09-18 22:40:00 +0300
+
+title:  "My first minimal post - Andres Pitta"
+date:   2019-9-18 
 ---
 
-True minimal theme is extremely lightweight and ascetic jekyll theme.
-
-![_config.yml]({{ site.baseurl }}/_images/minimal_birds.jpg)
-
-This theme has only one css file, which is used for source code highlighting. 
+This is a trial post for the platform class
 
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
+
+# This is a heading
+## oh Another heading
+### Heading number 3
+
 
 List of entries:
 
