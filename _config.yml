@@ -1,8 +1,8 @@
 name: "My very minimal webpage"
 description: "This is a very minimal blog for question number 4"
 
-url: '' 
-baseurl: ''
+url: 'https://andrespitta.github.io/second_blog' 
+baseurl: '/second_blog'
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
