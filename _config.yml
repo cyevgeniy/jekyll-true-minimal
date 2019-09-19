@@ -1,5 +1,7 @@
-name: "My very minimal webpage"
-description: "This is a very minimal blog for question number 4"
+
+name: "Second blog"
+description: "Colaborative work of Andres P. and Victor C."
+
 
 url: 'https://andrespitta.github.io/second_blog' 
 baseurl: '/second_blog'
