@@ -1,12 +1,16 @@
 ---
 layout: post
-title:  "Jekyll true minimal theme demo text 2"
+title:  "This is another longform post."
 date:   2017-12-30 23:22:40 +0300
+categories: long
 ---
+
+Here is a long post.
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Maecenas cursus nulla nec ipsum pulvinar aliquam.
 Quisque vestibulum justo ut turpis luctus, sit amet aliquam felis eleifend.
-Donec at nibh faucibus orci tincidunt tincidunt.
+Donec at nibh faucibhrthrthrthrus orci tincidunt tincidunt.
 In ut orci sed lorem pulvinar eleifend quis eu leo.
 
 Suspendisse porttitor velit id fermentum euismod.

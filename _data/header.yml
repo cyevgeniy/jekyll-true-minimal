@@ -1,7 +1,5 @@
-- name: all
-  link: /
 - name: short
-  link: /short
+  link: /
 - name: long
   link: /long
 - name: search

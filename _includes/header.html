@@ -1,9 +1,13 @@
 <header>
     <p>{{ site.description }}</p>
 </header>
+
+<div class="right">
 {% for item in site.data.header %}
-   <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+   <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
      {{ item.name }}
    </a>
  {% endfor %}
+</div>
+
 <hr>
