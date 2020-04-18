@@ -6,15 +6,20 @@
     <title>
         {% if page.title %}
             {{ page.title }}
-        {% else %} 
+        {% else %}
             {{ site.name }} &mdash; {{ site.description }}
         {% endif %}
     </title>
 
-    {% if site.highlighter %}
-        <link rel='stylesheet' href='{{ site.url }}/assets/css/syntax.css' type='text/css'>
-    {% endif %}
-    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <style>
+    .content {
+      max-width: 960px;
+      margin: auto;
+    }
+    </style>
+
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
 </head>
@@ -24,6 +29,6 @@
 
     {{ content }}
 <hr>
-    <p><small> <i>Build with <a href="https://jekyllrb.com/">Jekyll</a> and  <a href="https://github.com/cyevgeniy/jekyll-true-minimal/">true minimal theme</a></i> </small></p>
+    <p><small> <i>Built using <a href="https://jekyllrb.com/">Jekyll</a> and based on the <a href="https://github.com/cyevgeniy/jekyll-true-minimal/">true minimal theme.</a></i> </small></p>
 </body>
 </html>

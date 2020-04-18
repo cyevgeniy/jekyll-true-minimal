@@ -1,7 +1,7 @@
-name: "Jekyll true minimal theme"
-description: "Lightweight theme"
+name: "Jekyll Untrue Minimal"
+description: "This theme features an innovative no-title set up, beginning the page with a description of what the blog is about pursuant to function over form and divorced from branding philosophy."
 
-url: '' 
+url: ''
 baseurl: ''
 
 markdown: kramdown
@@ -12,11 +12,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-plugins:
-  - jekyll-paginate
-paginate: 10
-paginate_path: /page-:num
-
 #disqus-id: your-disqus-id
 
 source: .
@@ -25,4 +20,3 @@ destination: ./_site
 sass:
     style: :compressed
     sass_dir: assets/css/
-
