@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}{{ page.shortUrl }}</h1>
-<div class='separator'></div>
+
+<div class="center">
+
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date_to_string }}</p>
+
 
 {{ content }}
+
+</div>

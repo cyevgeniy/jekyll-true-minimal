@@ -1,5 +1,13 @@
 <header>
-    <h1>{{ site.description }}</h1>
+    <p>{{ site.description }}</p>
 </header>
-<a href='{{ site.url }}/'> all</a> | <a href='{{ site.url }}/short/'> short</a> | <a href='{{ site.url }}/long/'> long</a> | <a href='{{ site.url }}/search/'> Tag Search</a>
+
+<div class="right">
+{% for item in site.data.header %}
+   <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+     {{ item.name }}
+   </a>
+ {% endfor %}
+</div>
+
 <hr>

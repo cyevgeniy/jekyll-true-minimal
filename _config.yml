@@ -1,5 +1,5 @@
 name: "Jekyll Untrue Minimal"
-description: "This theme features an innovative no-title set up, beginning the page with a description of what the blog is about pursuant to function over form and divorced from branding philosophy."
+description: "The description of the blog is up top right here, it's there to give a description of the blog as opposed to a big title, probably a bit longer than this but it should do the trick."
 
 url: ''
 baseurl: ''
@@ -12,11 +12,13 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-#disqus-id: your-disqus-id
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 source: .
 destination: ./_site
 
 sass:
     style: :compressed
-    sass_dir: assets/css/
+    sass_dir: _sass

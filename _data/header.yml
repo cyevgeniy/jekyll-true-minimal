@@ -1,0 +1,6 @@
+- name: short
+  link: /
+- name: long
+  link: /long
+- name: search
+  link: /search
