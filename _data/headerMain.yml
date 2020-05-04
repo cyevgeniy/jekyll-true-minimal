@@ -1,0 +1,4 @@
+- name: short posts
+  link: /
+- name: long posts
+  link: /long/

@@ -2,12 +2,47 @@
     <p>{{ site.description }}</p>
 </header>
 
-<div class="right">
-{% for item in site.data.header %}
-   <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-     {{ item.name }}
-   </a>
- {% endfor %}
+<br>
+
+<div class="center">
+
+ <!-- "main" links are drawn, by default the "short" and "long" posts pages -->
+
+<span style="float:center">
+{% for item in site.data.headerMain %}
+    {% if page.url == item.link %}
+        <a class="currentHeader">
+          {{ item.name }}
+        </a>
+            &nbsp;&nbsp;
+    {% else %}
+       <a href="{{ item.link }}" class="linkHeader">
+         {{ item.name }}
+       </a>
+    &nbsp;&nbsp;
+    {% endif %}
+{% endfor %}
+</span>
+
+ <!-- "extra" links are drawn, by default solely a "search" by tags page -->
+
+<span style="float:right">
+{% for item in site.data.headerExtra %}
+    {% if page.url == item.link %}
+        <a class="currentHeader">
+          {{ item.name }}
+        </a>
+            &nbsp;&nbsp;
+    {% else %}
+       <a href="{{ item.link }}" class="linkHeader">
+         {{ item.name }}
+       </a>
+    &nbsp;&nbsp;
+    {% endif %}
+{% endfor %}
+</span>
+
 </div>
 
+<br>
 <hr>
