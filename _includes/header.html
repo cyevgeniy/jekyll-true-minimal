@@ -8,15 +8,22 @@
 
  <!-- "main" links are drawn, by default the "short" and "long" posts pages -->
 
+
+{% assign base_cull = page.url | remove: site.baseurl %}
+{% assign base_cull2 = base_cull | remove_first: "/" %}
+{% assign url_array = base_cull2 | split: "/" %}
+{% assign current_sub = url_array.first %}
+
+
 <span style="float:center">
 {% for item in site.data.headerMain %}
-    {% if page.url == item.link %}
-        <a class="currentHeader">
+    {% if current_sub == item.link %}
+        <a href="{{site.baseurl}}/{{ item.link }}" class="currentHeader">
           {{ item.name }}
         </a>
             &nbsp;&nbsp;
     {% else %}
-       <a href="{{site.baseurl}}{{ item.link }}" class="linkHeader">
+       <a href="{{site.baseurl}}/{{ item.link }}" class="linkHeader">
          {{ item.name }}
        </a>
     &nbsp;&nbsp;
@@ -28,13 +35,13 @@
 
 <span style="float:right">
 {% for item in site.data.headerExtra %}
-    {% if page.url == item.link %}
+    {% if current_sub == item.link %}
         <a class="currentHeader">
           {{ item.name }}
         </a>
             &nbsp;&nbsp;
     {% else %}
-       <a href="{{site.baseurl}}{{ item.link }}" class="linkHeader">
+       <a href="{{site.baseurl}}/{{ item.link }}" class="linkHeader">
          {{ item.name }}
        </a>
     &nbsp;&nbsp;

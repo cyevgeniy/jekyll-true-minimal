@@ -1,23 +1,17 @@
 ---
 layout: post
-title:  "This is another longform post."
-date:   2017-12-30 23:22:40 +0300
+title:  "Perfect Blue (1997)"
+date:   2020-05-01 23:22:40
 categories: long
+type: review
+tags: [movie, review]
 ---
 
-Here is a long post.
+Here is a long post. This long post is a dummy file for an imagined "movie review".
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Maecenas cursus nulla nec ipsum pulvinar aliquam.
-Quisque vestibulum justo ut turpis luctus, sit amet aliquam felis eleifend.
-Donec at nibh faucibhrthrthrthrus orci tincidunt tincidunt.
-In ut orci sed lorem pulvinar eleifend quis eu leo.
+![Still shot from the movie.](/jekyll-untrue-minimal/assets/img/PerfectBlue.jpg)
 
-Suspendisse porttitor velit id fermentum euismod.
-Phasellus sed turpis blandit, consequat libero sed, porttitor nisi.
-Nunc sollicitudin massa in mauris fermentum convallis.
-Ut sit amet sem vel lorem posuere viverra eu at neque.
-Vivamus rhoncus mi at varius pellentesque.
+The movie still was compressed using [Caesium](https://saerasoft.com/caesium/).
 
 Phasellus ut tortor sit amet mauris suscipit molestie dapibus ac eros.
 Mauris vehicula dui eget ante finibus malesuada.
