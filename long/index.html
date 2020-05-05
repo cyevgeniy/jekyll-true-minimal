@@ -3,11 +3,18 @@ layout: default
 title: long
 ---
 
+<div class="center">
 <ul>
   {% for post in site.categories.long %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{post.excerpt}}
+      <span>
+      {{ post.type }}
+      </span>
+      <span>
+      <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+      </span>
     </li>
+    &nbsp&nbsp
   {% endfor %}
 </ul>
+</div>

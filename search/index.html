@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Archive
+title: search
 ---
 <!-- Original snippet for generating archive page found here:
 https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 
 	<h2>Archive</h2>
 	<ul>
-	  {% for post in site.posts %}
+	  {% for post in site.categories.short %}
 	    {% unless post.next %}
 	      <h3>{{ post.date | date: '%Y-%m' }}</h3>
 	    {% else %}
