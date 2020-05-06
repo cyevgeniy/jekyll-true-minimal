@@ -4,10 +4,10 @@
 <head>
     <meta charset='utf-8'>
     <title>
-        {% if page.title %}
-            {{ page.title }}
+        {% if page.category %}
+            {{ page.category }}
         {% else %}
-            {{ site.name }} &mdash; {{ site.description }}
+            {{ site.name }}
         {% endif %}
     </title>
 
@@ -19,6 +19,7 @@
 
 <body>
     {% include header.html %}
+    <br>
     {{ content }}
 </body>
 </html>

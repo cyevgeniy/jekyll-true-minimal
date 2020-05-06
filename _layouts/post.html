@@ -2,21 +2,21 @@
 layout: default
 ---
 
-<div class="center">
+<div class="overpost">
 
-{% if post.categories.long %}
-<p>{{ page.title }}</p>
+<p style="font-weight: bold; text-align: right">
+{% if page.categories contains "long" %}
+{{ page.title }}<br>
+{{ page.date | date: "%D" }}<br>
+Type: {{ page.type }}<br>
+Tags: {{ page.tags }}
+{% else %}
+{{ page.date | date: "%T - %D" }}<br>
+Tags: {{ page.tags }}
 {% endif %}
+</p>
 
-<p>{{ page.date | date: "%T - %D" }}</p>
-<p>Tags: {{ page.tags }}</p>
+{{ content }}<br>
 
-</div>
-
-<br>
-
-<div class="center">
-
-{{ content }}
 
 </div>

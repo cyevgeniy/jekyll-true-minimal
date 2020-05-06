@@ -1,5 +1,5 @@
 name: "Jekyll Untrue Minimal"
-description: "[WIP]The description of the blog/site as found in the config YAML doubles as the header rather than a large title or banner. It is here to provide a description of the blog/site as the first text drawn on screen and allows for more space for, and less distraction from, pages and posts. I am not a proficient web developer or designer, and wanted to create something I would find useful and robust for a low-fi journal style site, so I found the theme True Minimal to start with and draw inspiration from and built from there. Please take a copy if you like it."
+description: "Welcome to the demo site for 'Jekyll Untrue Minimal'. The description of the blog/site as found in the config YAML doubles as the header rather than a large title or banner. It is here to provide a description of the blog/site as the first text drawn on screen and allows for more space for, and less distraction from, pages and posts."
 
 url: ''
 baseurl: '/jekyll-untrue-minimal'

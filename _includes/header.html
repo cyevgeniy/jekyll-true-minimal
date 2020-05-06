@@ -1,7 +1,8 @@
 <header>
-    <p>{{ site.description }}</p>
+    <div style="max-width: 1800; margin-left: 10px;">{{ site.description }}</div>
 </header>
 
+<br>
 <br>
 
 <div class="center">
@@ -15,7 +16,7 @@
 {% assign current_sub = url_array.first %}
 
 
-<span style="float:center">
+<span style="float: center;">
 {% for item in site.data.headerMain %}
     {% if current_sub == item.link %}
         <a href="{{site.baseurl}}/{{ item.link }}" class="currentHeader">
@@ -37,7 +38,7 @@
 {% for item in site.data.headerExtra %}
     {% if current_sub == item.link %}
         <a class="currentHeader">
-          {{ item.name }}
+          {{ item.name | strip }}
         </a>
             &nbsp;&nbsp;
     {% else %}

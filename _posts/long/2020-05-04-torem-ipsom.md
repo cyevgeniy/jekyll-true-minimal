@@ -4,7 +4,7 @@ title:  "Working With Atom"
 date:   2020-05-04 22:10:59
 categories: long
 type: work
-tags: programming, workflow
+tags: [programming, workflow]
 ---
 
 Here is a long post. This post is a stand-in serving as a dummy "work process" style post.
