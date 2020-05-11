@@ -63,6 +63,10 @@ GEM
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    tzinfo (2.0.2)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2020.1)
+      tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
 
 PLATFORMS
@@ -73,6 +77,8 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-untrue-minimal!
+  tzinfo (~> 2.0)
+  tzinfo-data (~> 1.2020)
 
 BUNDLED WITH
    2.1.4

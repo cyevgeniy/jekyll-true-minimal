@@ -9,7 +9,9 @@ tags: [movie, review]
 
 Here is a long post. This long post is a dummy file for an imagined "movie review".
 
+{:refdef: style="text-align: center;"}
 ![Still shot from the movie.](/jekyll-untrue-minimal/assets/img/PerfectBlue.jpg)
+{: refdef}
 
 The movie still was compressed using [Caesium](https://saerasoft.com/caesium/).
 

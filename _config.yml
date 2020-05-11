@@ -1,5 +1,8 @@
 name: "Jekyll Untrue Minimal"
-description: "Welcome to the demo site for 'Jekyll Untrue Minimal'. The description of the blog/site as found in the config YAML doubles as the header rather than a large title or banner. It is here to provide a description of the blog/site as the first text drawn on screen and allows for more space for, and less distraction from, pages and posts."
+description: "Welcome to the demo site for 'Jekyll Untrue Minimal'. The description of the blog/site as found in the config YAML doubles as the header rather than a large title or banner. It is here to provide a description of the blog/site as the first text drawn on screen and allows more space for, and less distraction from, pages and posts."
+
+timezone: Europe/London
+future: true
 
 url: ''
 baseurl: '/jekyll-untrue-minimal'
