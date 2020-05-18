@@ -5,10 +5,14 @@ title: search
 
 <div class="over">
 
+<div class="split right"
 <ul>
-	<li>
-		{{ site.tags }}<br>
-	</li>
+		{% for tag in site.tags %}
+		<li>
+			<a href="{{site.baseurl}}/tag/{{tag | first}}">{{tag | first}}</a>
+		</li>
+		{% endfor %}
 </ul>
+</div>
 
 </div>

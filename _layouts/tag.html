@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class=over>
+
+    <p>posts tagged with "{{page.tag}}"</p>
+
+<div class="split right">
+<ul>
+      {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+      <li><a class="post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+</div>

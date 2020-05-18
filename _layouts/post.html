@@ -9,10 +9,10 @@ layout: default
 {{ page.title }}<br>
 {{ page.date | date: "%D" }}<br>
 Type: {{ page.type }}<br>
-Tags: {{ page.tags }}
+Tags: {% for tag in page.tags %} #{{ tag }} {% endfor %}
 {% else %}
 {{ page.date | date: "%T - %D" }}<br>
-Tags: {{ page.tags }}
+Tags: {% for tag in page.tags %} #{{ tag }} {% endfor %}
 {% endif %}
 </p>
 
