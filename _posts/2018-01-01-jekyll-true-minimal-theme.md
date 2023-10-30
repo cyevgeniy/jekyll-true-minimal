@@ -4,6 +4,8 @@ title:  "Jekyll true minimal theme"
 date:   2018-01-01 23:22:40 +0300
 ---
 
+30-10-2023 -- 22:15  
+
 True minimal theme is extremely lightweight and ascetic jekyll theme.
 
 This theme has only one css file, which is used for source code highlighting. 
