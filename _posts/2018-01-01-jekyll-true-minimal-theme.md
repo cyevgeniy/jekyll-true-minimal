@@ -2,6 +2,8 @@
 layout: post
 title:  "Jekyll true minimal theme"
 date:   2018-01-01 23:22:40 +0300
+categories: Jekyll
+tags: Blog
 ---
 
 30-10-2023 -- 22:15  
