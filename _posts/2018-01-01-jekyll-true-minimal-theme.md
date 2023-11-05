@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Jekyll true minimal theme"
-date:   2018-01-01 23:22:40 +0300
-categories: Jekyll
-tags: Blog
+title: "Jekyll true minimal theme"
+date: 2018-01-01 20:19:23 +0200
+categoties: [Cat1, Cat2, Cat3]
+tags: Tag1 Tag2
 ---
 
 30-10-2023 -- 22:15  
+
+03-11-2023 -- 20-37  
 
 True minimal theme is extremely lightweight and ascetic jekyll theme.
 

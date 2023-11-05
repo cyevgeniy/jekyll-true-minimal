@@ -1,8 +1,9 @@
 name: "Изучаю Jekyll с минимальной темой"
 description: "Lightweight theme"
+permalink: /:categories/:title/
 
 url: 'https://dvesti.github.io/jekyll-true-minimal' 
-baseurl: '/'
+baseurl: ''
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -22,7 +23,7 @@ paginate_path: /page-:num
 source: .
 destination: ./_site
 
-sass:
-    style: :compressed
-    sass_dir: assets/css/
+#sass:
+#    style: :compressed
+#    sass_dir: assets/css/
 
