@@ -6,6 +6,8 @@ categories: php
 tags: [blog, jekyll]
 ---
 
+7 ноября 2023 г.  00-30  
+
 True minimal theme is extremely lightweight and ascetic jekyll theme.
 
 This theme has only one css file, which is used for source code highlighting. 

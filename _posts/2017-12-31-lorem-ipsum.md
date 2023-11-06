@@ -2,10 +2,11 @@
 layout: post
 title:  "Demo page 1"
 date:   2017-12-31 23:22:40 +0200
+excerpt_separator: <!--more--> 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget pulvinar leo. Nunc imperdiet felis orci, ac sagittis lorem faucibus eu. Donec mi dolor, fermentum eu nisi eu, pharetra sagittis nisi. Sed vestibulum felis porttitor, congue felis ac, sollicitudin velit. Etiam ac lacinia dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Ut sed mauris blandit, sagittis libero in, elementum ipsum.
-
+<!--more--> 
 In blandit blandit neque id interdum. Morbi mattis erat non mauris pretium ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent condimentum vel magna in dignissim. Curabitur blandit, ante ut blandit porta, urna magna sodales urna, eget fermentum urna massa non arcu. Sed luctus ipsum ultrices dolor condimentum, ac pharetra orci finibus. Integer scelerisque bibendum sem, et fringilla dui euismod sit amet.
 
 Aliquam convallis diam metus, sed luctus purus mollis ut. Suspendisse potenti. Quisque a nulla id tortor malesuada placerat non et ante. Morbi eget finibus ipsum. Donec aliquet elementum nulla, ut fermentum risus suscipit ut. Aliquam sollicitudin cursus dui id rhoncus. Fusce non lorem magna. Phasellus egestas ex nec felis blandit, at varius tortor fringilla.
