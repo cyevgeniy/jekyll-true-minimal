@@ -27,3 +27,4 @@ destination: ./_site
 #    style: :compressed
 #    sass_dir: assets/css/
 
+exclude: ['*.Rmd']

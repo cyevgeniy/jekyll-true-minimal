@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-            <h2>Tags</h2>
-            <p>Tags page</p>
 
-            {% for tag in site.tags %}
+<h2>Tags</h2>
+<!--
+01.           {% for tag in site.tags %}
   {{ tag[0] }}
 {% endfor %}
-
-            {% for tag in site.tags %}
+-->
+{% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
     {% for post in tag[1] %}
@@ -17,13 +17,26 @@ layout: default
   </ul>
 {% endfor %}
 
+
+08. 
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+<!--
+03.
 {% capture tags %}
   {% for tag in site.tags %}
     {{ tag[0] }}
   {% endfor %}
 {% endcapture %}
 {% assign sortedtags = tags | split:' ' | sort %}
-
+04.
 {% for tag in sortedtags %}
   <h3 id="{{ tag }}">{{ tag }}</h3>
   <ul>
@@ -32,7 +45,7 @@ layout: default
   {% endfor %}
   </ul>
 {% endfor %}
-
+05.
 {% assign tagdata = '' | split:'@' %}
 {% for tag in site.tags %}
     {% if post.tags contains tag.name or tag.name == post.tags %}
@@ -43,3 +56,14 @@ layout: default
     {% endif %}
 {% endfor %}
 <p>{{ tagdata | array_to_sentence_string }}</p>
+-->
+
+09.
+
+{% if page.tags %}
+    {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+            #{{ tag }}
+        </a>
+    {% endfor %}
+{% endif %}
