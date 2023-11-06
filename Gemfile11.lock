@@ -11,7 +11,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.16.3-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
-    google-protobuf (3.25.0-x64-mingw-ucrt)
+    google-protobuf (3.24.4-x64-mingw-ucrt)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
