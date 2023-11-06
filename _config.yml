@@ -1,6 +1,6 @@
 name: "Изучаю Jekyll с минимальной темой"
 description: "Lightweight theme"
-#permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 url: https://dvesti.github.io/jekyll-true-minimal   
 baseurl: ""
