@@ -1,3 +1,26 @@
+body {
+   /*font-size: 142%;*/
+
+    font-size: 133%; /* Размер основного шрифта */
+   }
+   h1 {
+    font-size: 140%; /* Размер заголовка */
+   }
+
+   h2 {
+    font-size: 130%; /* Размер заголовка */
+   }
+
+   h3 {
+    font-size: 120%; /* Размер заголовка */
+   }
+
+   h4 {
+    font-size: 110%; /* Размер заголовка */
+   }
+   
+
+
 .codehilite  { background: #ffffff; }
 .codehilite .c { color: #999988; font-style: italic } /* Comment */
 .codehilite .err { color: #a61717; background-color: #e3d2d2 } /* Error */
