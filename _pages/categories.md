@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
 permalink: /categories/
 title: Categories
----   
-
-<h2>Categories</h2>
+---
 
 <div id="archives">
   {% for category in site.categories %}
