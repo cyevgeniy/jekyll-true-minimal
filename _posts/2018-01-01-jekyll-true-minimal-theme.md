@@ -16,6 +16,10 @@ This theme has only one css file, which is used for source code highlighting.
 # Heading 1
 ## Heading 2
 ### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
 
 List of entries:
 
@@ -24,9 +28,9 @@ List of entries:
 - item 3
 - item 4
 
-Source code are highlighted:
+Source code are highlighted:  
 
-```perl
+```code  
 #!/usr/bin/perl
 
 sub print_hello {
