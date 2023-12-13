@@ -1,8 +1,9 @@
-name: "Jekyll true minimal theme"
+name: "Изучаю Jekyll с минимальной темой"
 description: "Lightweight theme"
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
-url: '' 
-baseurl: ''
+url: https://dvesti.github.io/jekyll-true-minimal   
+baseurl: ""
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -14,7 +15,7 @@ kramdown:
 
 plugins:
   - jekyll-paginate
-paginate: 10
+paginate: 2
 paginate_path: /page-:num
 
 #disqus-id: your-disqus-id
@@ -25,4 +26,4 @@ destination: ./_site
 sass:
     style: :compressed
     sass_dir: assets/css/
-
+excerpt_separator: <!--more-->    
